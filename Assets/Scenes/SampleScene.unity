@@ -885,7 +885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputContextConfig: {fileID: 11400000, guid: 02a864cfc72fa5d02b099bba9c81cb51, type: 2}
-  initialContext: 1
+  initialContext: 2
   currentInputState: 0
 --- !u!4 &956500803
 Transform:
@@ -1207,7 +1207,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bd01b44f5605c848911e52b8ff3d1d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraRotationPivot: {fileID: 563256314}
+  cameraXRotationPivot: {fileID: 563256314}
+  gravity: {x: 0, y: -6, z: 0}
+  walkingSpeed: 1
+  runningSpeed: 1.5
 --- !u!143 &1663981872
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1242,7 +1245,7 @@ Transform:
   m_GameObject: {fileID: 1663981870}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.36, z: 0}
+  m_LocalPosition: {x: 0, y: 2.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
